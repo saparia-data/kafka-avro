@@ -1,5 +1,7 @@
 # kafka-avro
 
+Avro records examples and avro schema evolution types.
+
 ### Generic Records
 We can use avro classes to read schema and avro type data
 
