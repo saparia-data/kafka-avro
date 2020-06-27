@@ -13,7 +13,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * Created by Shree on 24-06-2020.
+ * Created by saparia on 24-06-2020.
  */
 public class GenericRecordExamples {
     public static void main(String[] args) {
