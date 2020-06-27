@@ -18,3 +18,5 @@ There are 4 types of evolution.
 3) Full -> Both forward and backward are compatible. We should use default value for a field.
 4) Breaking -> It will break and we can't read schema
 In short for proper schema evolution, we should consider using default values for the fields.
+
+### Sample kafka producer and consumer programs with schema registry
