@@ -10,7 +10,7 @@ import java.util.Collections;
 import java.util.Properties;
 
 /**
- * Created by Shree on 27-06-2020.
+ * Created by saparia on 27-06-2020.
  */
 
 public class KafkaAvroJavaConsumer {
