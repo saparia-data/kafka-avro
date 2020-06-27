@@ -20,3 +20,8 @@ There are 4 types of evolution.
 In short for proper schema evolution, we should consider using default values for the fields.
 
 ### Sample kafka producer and consumer programs with schema registry
+
+### What actually happens with schema registry?
+-Avro data contains avro schema + data
+-Kafka schema registry contains avsc schema + schema ID
+-But kafka broker contains magic byte (schema version) + schema ID + data. This is how kafka avro Serializer work.
