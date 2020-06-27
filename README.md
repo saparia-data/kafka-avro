@@ -22,6 +22,6 @@ In short for proper schema evolution, we should consider using default values fo
 ### Sample kafka producer and consumer programs with schema registry
 
 ### What actually happens with schema registry?
--Avro data contains avro schema + data
--Kafka schema registry contains avsc schema + schema ID
--But kafka broker contains magic byte (schema version) + schema ID + data. This is how kafka avro Serializer work.
+1)Avro data contains avro schema + data
+2)Kafka schema registry contains avsc schema + schema ID
+3)But kafka broker contains magic byte (schema version) + schema ID + data. This is how kafka avro Serializer work.
