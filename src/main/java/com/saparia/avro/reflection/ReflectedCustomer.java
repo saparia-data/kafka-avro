@@ -3,7 +3,7 @@ package com.saparia.avro.reflection;
 import org.apache.avro.reflect.Nullable;
 
 /**
- * Created by Shree on 24-06-2020.
+ * Created by saparia on 24-06-2020.
  */
 public class ReflectedCustomer {
     private String firstName;
